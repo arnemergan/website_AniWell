@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.app-section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.icon-lg {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
