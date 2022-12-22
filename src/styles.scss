@@ -1,19 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
-.app-section {
-    margin-left: 10%;
-    margin-right: 10%;
+.app-section,
+.nav-section,
+.footer-section {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .icon-lg {
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-    font-size: 1.2rem;
-  }
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  line-height: 1.25;
+}

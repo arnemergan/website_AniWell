@@ -1,3 +1,29 @@
-.card {
-    border: none;
+.ghd,
+.khd {
+  height: 70vh;
+  margin-bottom: 10%;
+}
+
+.ghd .card {
+  height: 8rem;
+  width: auto;
+  border: none;
+  background-color: #e0e0e0;
+  margin: 2%;
+  text-align: center;
+}
+
+.ghd .image,
+.khd .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ghd .image {
+  background-image: url("https://dierenwiki.nl/wp-content/uploads/2020/05/Paard-1024x806.jpg");
+}
+
+.khd .image {
+  background-image: url("https://www.dierenspeciaalzaakdebruin.nl/images/tekst_honden.jpg");
 }
